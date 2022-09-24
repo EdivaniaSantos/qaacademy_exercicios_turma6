@@ -1,19 +1,24 @@
 package exercicio_easy;
 
-import javax.swing.*;
-
 public class Exerc4 { //inicio da classe
 
-    public static void main(String[]args){
-        //declarar variavel do tipo numerica
-         int num1;
-         // numero = ler ()
-         num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));// imprimir na tela
-         // Exibir numero
+    public String calcularDobro(int num) {
+        int result = num * 2;
+        return "o retorno é " + result;
 
-        System.out.println("O dobro é"+" " +num1*2);
+
+//    public int dobroNumero (int dobro){
+//        return dobro;
+
+//        //declarar variavel do tipo numerica
+//         int num1;
+//         // numero = ler ()
+//         num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));// imprimir na tela
+//         // Exibir numero
+//
+//        System.out.println("O dobro é"+" " +num1*2);
 
     }
 
-
-}//fim da clase
+}
+//fim da clase
