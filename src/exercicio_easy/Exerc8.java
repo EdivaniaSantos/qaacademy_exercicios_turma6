@@ -3,10 +3,8 @@ package exercicio_easy;
 import javax.swing.*;
 
 public class Exerc8 { //inicio da classe
-    public static void main(String[] args) {
-        double salario, ir=0;
+    public double ir(double salario, double ir) {
 
-        salario = Double.parseDouble(JOptionPane.showInputDialog("Digite seu Salário"));
         if (salario >= 00.00 && salario <= 1903.98) {
             System.out.println("insento do imposto de renda : ");
         }
@@ -22,12 +20,43 @@ public class Exerc8 { //inicio da classe
         if (salario > 4664.68) {
             ir = (salario * 0.275) - 869.36;
         }
-        System.out.println("salario bruto : " + salario );
+        System.out.println("salario bruto : " + salario);
         System.out.println("salario liquido : " + (salario - ir));
         System.out.println("imposto a pagar : " + ir);
 
+        return ir;
+
     }
 }
+
+//
+//
+//
+//    public static void main(String[] args) {
+//        double salario, ir=0;
+//
+//        salario = Double.parseDouble(JOptionPane.showInputDialog("Digite seu Salário"));
+//        if (salario >= 00.00 && salario <= 1903.98) {
+//            System.out.println("insento do imposto de renda : ");
+//        }
+//
+//        if (salario >= 1903.99 && salario <= 2826.65) {
+//            ir = (salario * 0.15) - 354.80;
+//        }
+//
+//        if (salario >= 3751.06 && salario <= 24664.68) {
+//            ir = (salario * 0.275) - 636.13;
+//        }
+//
+//        if (salario > 4664.68) {
+//            ir = (salario * 0.275) - 869.36;
+//        }
+//        System.out.println("salario bruto : " + salario );
+//        System.out.println("salario liquido : " + (salario - ir));
+//        System.out.println("imposto a pagar : " + ir);
+//
+//    }
+//}
 
 
 //    public static void main(String[]args) {

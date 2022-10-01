@@ -18,7 +18,7 @@ package exercicio_medium;
 
 public class Exerc3 {
 
-    public static void main(String[] args) {
+    public void soma () {
         int soma = 0, i = 0;
 
         while (i <= 100 && soma <= 1500) {

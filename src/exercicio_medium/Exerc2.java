@@ -6,12 +6,12 @@
 import javax.swing.*;
 
 public class Exerc2 {
-    public static void main(String[] args) {
+    public void investimento ()  {
 
-        double investimento, valorTotal =0, valorJuros=0, i = 1,taxaJuros = 0.05;
+        double investimento =1000, valorTotal =0, valorJuros=0, i = 1,taxaJuros = 0.05;
 
 
-        investimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o investimento"));
+    ///    investimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o investimento"));
 
         while (i <= 10) {
 

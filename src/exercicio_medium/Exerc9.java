@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class Exerc9 {
 
-    public static void main(String[] args) {
+    public void NomeAluno() {
         int[] numero = new int[5];
         String[] nome = new String[5];
         int i = 0;

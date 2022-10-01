@@ -7,7 +7,7 @@ import javax.swing.*;
 
 public class Exerc6 {
 
-    public static void main(String[] args) {
+    public void fatorial() {
         int fatorial = 1, numero;
 
         numero = Integer.parseInt(JOptionPane.showInputDialog("Digite ou numero que deseja calcular o fatorial"));
@@ -23,6 +23,5 @@ public class Exerc6 {
             }
 
         }
-
-    }
+}
 

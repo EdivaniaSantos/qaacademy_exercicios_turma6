@@ -3,7 +3,7 @@
 package exercicio_medium;
 
 public class Exerc1 {
-    public static void main(String[] args) {
+    public void exibirParImpar() {
         int i = 0;
         while (i <= 100) {
             if (i % 2 == 0) { ///resto d divição de par é sempre 0 e impar é diferente de 0

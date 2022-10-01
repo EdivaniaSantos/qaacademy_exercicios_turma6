@@ -3,7 +3,7 @@
 package exercicio_medium;
 
 public class Exerc7 {
-    public static void main(String[] args) {
+    public void mesesAno() {
 
         String [] mes = new String[12];
 

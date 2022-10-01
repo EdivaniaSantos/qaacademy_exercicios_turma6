@@ -2,7 +2,7 @@ package exercicio_medium;
 
 public class Exer3b {
 
-    public static void main(String[] args) {
+    public void calculos() {
         int soma = 0, i = 0;
 
         while (i <= 100) {
